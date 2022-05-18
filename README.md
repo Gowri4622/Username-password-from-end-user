@@ -23,7 +23,7 @@ Step 7: Save and run the application.
 ## PROGRAM:
 ```
 /*
-Program to print the text “Hello World”.
+Program to accept username and password from the end user.
 Developed by: Gowri M
 Registeration Number : 212220230019
 */
