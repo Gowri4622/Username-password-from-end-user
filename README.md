@@ -84,7 +84,6 @@ public class MainActivity extends AppCompatActivity {
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="205dp"
@@ -103,6 +102,8 @@ public class MainActivity extends AppCompatActivity {
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
+        android:background="#4CAF50"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.179"
@@ -115,6 +116,8 @@ public class MainActivity extends AppCompatActivity {
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reset"
+        android:textColor="@color/white"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.772"
@@ -123,30 +126,22 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintVertical_bias="0.543"
         app:layout_constraintStart_toEndOf="@+id/button3" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="114dp"
-        android:layout_height="48dp"
-        android:text="Name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.148"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.193" />
+
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="102dp"
+        android:layout_height="45dp"
+        android:background="#E91E63"
         android:text="Password"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintVertical_bias="0.342" />
 
     <EditText
         android:id="@+id/e1"
@@ -155,6 +150,7 @@ public class MainActivity extends AppCompatActivity {
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:background="#EDA5BE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.835"
@@ -169,6 +165,7 @@ public class MainActivity extends AppCompatActivity {
         android:layout_width="193dp"
         android:layout_height="49dp"
         android:ems="10"
+        android:background="#EDA5BE"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -181,10 +178,29 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintVertical_bias="0.341"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="108dp"
+        android:layout_height="50dp"
+        android:background="#E91E63"
+        android:text="Name"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
 ## OUTPUT
+![WhatsApp Image 2022-05-19 at 2 35 58 PM (1)](https://user-images.githubusercontent.com/75235455/169308943-f318d575-fcab-4b4f-8a41-254874662637.jpeg)
+
+![WhatsApp Image 2022-05-19 at 2 35 58 PM](https://user-images.githubusercontent.com/75235455/169308964-6e929cfa-397a-427a-8560-cde2ca33a489.jpeg)
+
+
 
 ## RESULT
 Thus a Simple Android Application develop a program to accept username and password from the end user using Text View and Edit Text and display personal information of the student using Android Studio is developed and executed successfully.
