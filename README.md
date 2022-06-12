@@ -1,4 +1,7 @@
-# Ex.No:5 Develop a program to accept username and password from the end user using Text View and Edit Text and display personal information of the student.
+### EX NO : 05
+### DATE  : 
+# <p align="center"> Develop a program to accept username and password from the end user using Text View and Edit Text and display personal information of the student </p>
+
 ## AIM:
 To develop a program to accept username and password from the end user using Text View and Edit Text and display personal information of the student using Android Studio.
 
@@ -20,7 +23,13 @@ Step 6: Accept username and password from the end user and the display informati
 
 Step 7: Save and run the application.
 
+</br>
+</br>
+</br>
+</br>
+
 ## PROGRAM:
+
 ```
 /*
 Program to accept username and password from the end user.
@@ -195,8 +204,27 @@ public class MainActivity extends AppCompatActivity {
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
 ## OUTPUT
 ![WhatsApp Image 2022-05-19 at 2 35 58 PM (1)](https://user-images.githubusercontent.com/75235455/169308943-f318d575-fcab-4b4f-8a41-254874662637.jpeg)
+
+</br>
 
 ![WhatsApp Image 2022-05-19 at 2 35 58 PM](https://user-images.githubusercontent.com/75235455/169308964-6e929cfa-397a-427a-8560-cde2ca33a489.jpeg)
 
